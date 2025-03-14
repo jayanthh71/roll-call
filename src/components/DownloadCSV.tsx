@@ -54,7 +54,7 @@ export default function DownloadCSV({
     <CSVDownloader
       className={`mt-4 w-xs cursor-pointer rounded ${absentees ? "bg-red-500" : "bg-white"} px-4 py-2 font-semibold ${absentees ? "" : "text-black"} ${absentees ? "hover:bg-red-600" : "hover:bg-gray-300"} sm:w-sm md:w-md lg:w-lg`}
       type={Type.Button}
-      filename={`${hostel.toLowerCase().replace(" ", "_")}_${absentees ? "absentees" : ""}_${
+      filename={`${hostel.toLowerCase().replace(" ", "_")}${absentees ? "_absentees" : ""}_${
         new Date().toISOString().split("T")[0]
       }`}
       bom={true}

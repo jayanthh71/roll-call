@@ -42,7 +42,7 @@ export default function Home() {
     <div className="m-12 flex flex-col font-[family-name:var(--font-geist-sans)]">
       <div className="flex flex-col items-center">
         <h1 className="text-center text-3xl font-bold">
-          NITT Hostel Roll Call System
+          Garnet Roll Call System
         </h1>
         <h2 className="mt-2 text-xs text-gray-300">
           Made with ❤️ by Jayanth Ramesh Kumar

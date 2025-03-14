@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: " NITT Roll Call System",
+  title: "Garnet Roll Call",
   description: "Roll Call System for NIT Trichy Garnet Hostels",
 };
 
